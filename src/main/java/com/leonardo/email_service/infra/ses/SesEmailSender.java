@@ -1,4 +1,4 @@
-package com.leonardo.infra.ses;
+package com.leonardo.email_service.infra.ses;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
