@@ -1,6 +1,7 @@
 package com.leonardo.email_service.application;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.leonardo.email_service.adapaters.EmailSenderGateway;
 import com.leonardo.email_service.core.EmailSenderUserCase;
@@ -8,7 +9,7 @@ import com.leonardo.email_service.core.EmailSenderUserCase;
 
 
 
-
+@Service
 public class EmailSenderService implements EmailSenderUserCase {
     
     private final EmailSenderGateway emailSenderGateway;
